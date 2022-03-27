@@ -1,0 +1,144 @@
+*{
+    font-family: cursive;
+}
+
+body{
+    background-image: url(pokefondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pokedex{
+    position: absolute;
+    align-content: center;
+}
+
+.pokelogo{
+    position: absolute;
+    left: 700px;
+    top: 100px;
+}
+
+.pokemonsgif{
+    position: absolute;
+    left: 35px;
+    top: 30px;
+}
+
+.contenedor{
+    position: absolute;
+    top: 110px;
+    left: 239px;
+}
+.a{
+    position: absolute;
+    border-radius: 100px;
+    background: linear-gradient(to right, rgb(111, 233, 166), rgb(0, 53, 13));
+    width: 30px;
+    height: 30px;
+    top: 376px;
+    left: 214px;
+    color: white;    
+}
+.a:hover{
+    background: linear-gradient(to left, rgb(111, 233, 166), rgb(0, 53, 13));
+}
+
+.b{
+    position: absolute;
+    border-radius: 100px;
+    background: linear-gradient(to right, rgb(255, 141, 141),rgb(122, 6, 6));
+    width: 30px;
+    height: 30px;
+    top: 416px;
+    left: 214px;
+    color: white; 
+}
+.b:hover{
+    background: linear-gradient(to left, rgb(255, 141, 141),rgb(122, 6, 6));
+}
+
+.table{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: 340px;    
+}
+
+#Moves{
+    position: absolute;
+    top: 300px;
+    left: 80px;
+    font-size: small;
+    font-weight: bold;
+}
+.moveList{
+    top: 10px;
+    position: absolute;
+    display: block;
+    font-weight: 100;
+    overflow: scroll; height: 130px; border-width: 5px;
+   
+}
+input:checked ~ ul{display:none;}
+
+
+#Type{
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    font-size: small;
+    font-weight: bold;
+}
+.typeList{
+    top: 10px;
+    position: absolute;
+    display: block;
+    font-weight: 100;
+}
+input:checked ~ ul{display:none;}
+   
+
+#Attack{
+    position: absolute;
+    top: 340px;
+    left: 0px;
+    font-size: small;
+    font-weight: bold;
+}
+.attackList{
+    top: 10px;
+    position: absolute;
+    display: block;
+    font-weight: 100;
+}
+input:checked ~ ul{display:none;}
+
+#Defense{
+    position: absolute;
+    top: 379px;
+    left: 0px;
+    font-size: small;
+    font-weight: bold;
+}
+.defenseList{
+    top: 10px;
+    position: absolute;
+    display: block;
+    font-weight: 100;
+}
+input:checked ~ ul{display:none;}
+
+#Hp{
+    position: absolute;
+    top: 416px;
+    left: 0px;
+    font-size: small;
+    font-weight: bold;
+}
+.hpList{
+    top: 10px;
+    position: absolute;
+    display: block;
+    font-weight: 100;
+}
+input:checked ~ ul{display:none;}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex Launch X</title>
+    <link rel="stylesheet" href="./styles.css" media="all">
+</head>
+<body>
+    <div class="pokelogo">
+        <img src="./pokeLogo.png" alt="POKEMON" width="600px">
+    </div>
+
+    <div class="pokedex">
+        <img src="./pokedex.png" alt="Pokedex" width="550px">
+    </div>
+    <div class="contenedor">
+        <input type="text" placeholder="Pokemon Name" id="pokeName" name="pokeName"> <br>
+        <img src="./pokemons.gif" alt="Pokeball" id="pokeImg" width="100px" class="pokemonsgif"> <br>
+        <input type="button" class="a" onclick="fetchPokemon()" value="A"/ width="150px">
+        <input type="reset" class="b" onclick="location.reload()" value="B"/>
+
+       
+<div id="Moves">
+    <input type="checkbox" class="moves"><label for="movesList">Moves</label>
+    <ul class="moveList" id="pokeMoves">
+
+    </ul>
+</div>
+
+<div id="Type">
+    <input type="checkbox" class="type"><label for="poke_type">Type</label>
+    <ul class="typeList" id="pokeType">
+
+    </ul>
+</div>
+
+<div id="Attack">
+    <input type="checkbox" class="attack"><label for="poke_attack">Attack</label>
+    <ul class="attackList" id="pokeAttack"></ul>
+</div>
+
+<div id="Hp">
+    <input type="checkbox" class="hp"><label for="poke_hp">Hp</label>
+    <ul class="hpList" id="pokeHp"></ul>
+</div>
+
+<div id="Defense">
+    <input type="checkbox" class="defense"><label for="poke_defense">Defense</label>
+    <ul class="defenseList" id="pokeDefense"></ul>
+</div>
+
+
+
+</body>
+<footer>
+    <script src="./script.js"></script>
+</footer>
+</html>
